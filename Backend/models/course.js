@@ -1,5 +1,4 @@
 const mongoose = require("mongoose");
-const moduleSchema = require("./module");
 
 const courseSchema = new mongoose.Schema(
   {
@@ -12,7 +11,10 @@ const courseSchema = new mongoose.Schema(
       required: true,
     },
     duration: { type: Number, required: true },
-    modules: [typeof moduleSchema],
+    modules: [{
+      type: mongoose.Schema.Types.ObjectId,
+      ref: "Module",
+    }],
   },
   { timestamps: true }
 );

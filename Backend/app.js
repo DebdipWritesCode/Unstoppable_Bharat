@@ -21,6 +21,7 @@ const llmRoutes = require("./routes/llm");
 const userRoutes = require("./routes/user");
 
 app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
 
 app.use("/auth", authRoutes);
 app.use("/course", courseRoutes);

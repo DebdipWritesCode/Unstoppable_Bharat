@@ -10,8 +10,19 @@ from langchain.memory import ConversationBufferMemory
 from langchain.prompts import PromptTemplate
 from langchain_groq import ChatGroq
 
+from fastapi.middleware.cors import CORSMiddleware
+
 # Initialize FastAPI app
 app = FastAPI()
+
+# Allow all origins (for development)
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  # Allow all origins (use specific domains in production)
+    allow_credentials=True,
+    allow_methods=["*"],  # Allow all HTTP methods (GET, POST, PUT, DELETE, etc.)
+    allow_headers=["*"],  # Allow all headers
+)
 
 # Initialize ChatGroq Model
 groq_api_key = "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"
