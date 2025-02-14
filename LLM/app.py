@@ -182,9 +182,4 @@ def youtube_search(request: YouTubeRequest):
 
     videos = get_youtube_videos(request.topic, request.max_results)
     return {"videos": videos}
-
-# ✅ Run FastAPI Server
-# if __name__ == "__main__":
-#     import uvicorn
-#     print("Starting FastAPI server...")
-#     uvicorn.run(app, host="0.0.0.0", port=8000, reload=True)
+    
