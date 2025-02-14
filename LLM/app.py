@@ -182,4 +182,3 @@ def youtube_search(request: YouTubeRequest):
 
     videos = get_youtube_videos(request.topic, request.max_results)
     return {"videos": videos}
-    
