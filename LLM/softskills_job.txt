@@ -1,0 +1,279 @@
+
+Agriculture & Farming
+Farmer
+Agricultural Laborer
+Dairy Farmer
+Poultry Farmer
+Beekeeper
+Organic Farmer
+Horticulturist
+Sericulturist (Silk Farming)
+Floriculturist (Flower Farming)
+Medicinal Plant Cultivator
+Mushroom Farmer
+Cash Crop Farmer (Sugarcane, Cotton, Tea, etc.)
+Aquaculture Farmer (Fish/Prawn Farming)
+Vermiculture Farmer (Earthworm Composting)
+Sheep and Goat Farmer
+Pig Farmer
+Rabbit Farmer
+Agroforestry Specialist
+Agro-input Dealer (Seeds, Fertilizers)
+Rural Farming Consultant
+Animal Husbandry & Dairy
+Dairy Worker
+Cattle Rancher
+Livestock Inspector
+Veterinary Assistant
+Buffalo Rearing Specialist
+Camel Herdsman
+Sheep Shearer
+Goat Milk Producer
+Poultry Feed Supplier
+Leather Tanner
+Handicrafts & Traditional Arts
+Potter
+Weaver (Handloom Worker)
+Bamboo Craft Worker
+Basket Maker
+Wood Carver
+Block Printer
+Jute Artisan
+Leatherworker
+Embroidery Artisan
+Carpet Weaver
+Paper Mache Artist
+Rural Toy Maker
+Jewelry Maker (Beaded/Tribal Jewelry)
+Terracotta Craftsman
+Folk Art Painter (Madhubani, Warli, Pattachitra, etc.)
+Food Processing & Small Scale Industries
+Pickle Maker
+Jaggery Maker
+Oil Extractor (Cold Pressed Oil)
+Spices Processor
+Papad Maker
+Traditional Snack Maker (Bhujiya, Sev, etc.)
+Rice Mill Worker
+Flour Mill Operator
+Dairy Product Maker (Paneer, Ghee, Butter)
+Ice Cream and Kulfi Maker
+Construction & Skilled Trades
+Brick Kiln Worker
+Carpenter
+Blacksmith
+Mistri (Mason)
+Painter (Wall/House Painting)
+Plumber
+Electrician
+Roofer (Thatched or Tile Roofing)
+Well Digger
+Borewell Operator
+Fishing & Marine Jobs
+Fisherman
+Net Weaver (Fishing Net Maker)
+Boat Builder
+Fish Dryer and Seller
+Shell and Pearl Collector
+Transportation & Logistics
+Bullock Cart Driver
+Cycle Rickshaw Puller
+Tractor Driver
+Auto Driver
+Village Transport Service Operator
+Handcart Puller
+Bicycle Repairer
+Rural Courier Delivery Worker
+Forest & Tribal Economy
+Honey Collector
+Lac Producer
+Tendu Leaf Collector (Used for Bidi Making)
+Mahua Flower Collector
+Bamboo Harvester
+Charcoal Maker
+Medicinal Herb Collector
+Firewood Seller
+Rural Retail & Trade
+Small Shop Owner (Kirana Store)
+Vegetable Vendor
+Fruit Seller
+Milk Seller
+Tea Stall Owner
+Barber
+Cobbler
+Tailor
+Scrap Collector
+Roadside Mechanic
+Cloth Vendor
+Bicycle Seller
+Rural Healthcare & Social Services
+ASHA Worker (Accredited Social Health Activist)
+Anganwadi Worker
+Village Midwife (Dai)
+Rural Health Practitioner
+Homeopathy Practitioner
+Ayurvedic Doctor
+Herbal Medicine Seller
+Traditional Bone Setter
+Rural Pharmacist
+Local Healer
+Rural Education & Administration
+Rural School Teacher
+Gram Panchayat Officer
+Village Postman
+Public Distribution System (Ration Dealer)
+Rural Librarian
+NGO Field Worker
+Community Organizer
+Energy & Environmental Jobs
+Solar Panel Installer
+Water Pump Mechanic
+Rural Electrification Worker
+Bio-Gas Plant Technician
+Windmill Maintenance Worker
+Employment through Government Schemes
+MNREGA Worker
+Self-Help Group (SHG) Member
+Rural Bank Correspondent
+Village Development Officer
+Agricultural Extension Officer
+Other Unique Rural Professions
+Snake Catcher
+Rural Astrologer
+Bidi Roller
+Drum Maker
+Folk Musician
+Puppet Maker
+Cow Dung Cake Seller
+Mat Weaver
+Stone Carver
+Rural Wedding Band Member
+Organic Fertilizer Producer (Cow Dung, Vermicompost)
+Tractor Mechanic
+Irrigation Pump Operator
+Pesticide Sprayer
+Traditional Seed Collector
+Grafting Expert (Fruit Tree Propagation)
+Greenhouse Worker
+Drip Irrigation Installer
+Crop Insurance Agent
+Rural Farm Consultant
+🐄 Animal Husbandry & Allied Activities (Continued)
+Horse Trainer
+Camel Cart Operator
+Cow Shed Cleaner
+Goat and Sheep Breeder
+Duck Farmer
+Rural Veterinary Compounder
+Bull Rearing Specialist
+Animal Feed Manufacturer
+Silk Worm Farmer (Sericulture)
+Emu Farmer
+🛠️ Handicrafts & Cottage Industries (Continued)
+Rural Toy Maker (Wooden, Lacquer, Clay)
+Coir Product Maker (Mats, Ropes)
+Cane Furniture Maker
+Rural Leather Shoe Maker
+Stoneware Utensil Maker
+Decorative Earthenware Maker
+Natural Dye Expert (Textile Dyeing)
+Palm Leaf Craft Artist
+Bamboo Musical Instrument Maker
+Traditional Carpet Dyer
+🍛 Food Processing & Village Industries (Continued)
+Dry Fruit Processor
+Masala Powder Maker
+Khoya (Mawa) Maker
+Gulkand (Rose Petal Jam) Producer
+Sweets & Halwai Worker
+Butter Churning Expert
+Pickle & Chutney Maker
+Bakery Worker (Rural Bread & Buns)
+Coconut Oil Processor
+Ice Gola Vendor
+🏗️ Rural Construction & Building Trades (Continued)
+Thatch Roof Maker (Straw & Grass Roofs)
+Mud House Builder
+Well Water Puller (Persian Wheel Operator)
+Rural Road Worker
+Stone Quarry Worker
+Clay Brick Maker
+Bamboo Scaffold Builder
+Thatched Fence Installer
+Village Tank (Pond) Digger
+River Embankment Worker
+🚜 Rural Transportation & Logistics (Continued)
+Bullock Cart Repairer
+Rural Courier Delivery Boy
+Village Petrol Pump Attendant
+Roadside Tyre Repair Worker
+Tanga (Horse Cart) Operator
+Riverboat Ferryman
+Rural Gas Delivery Worker
+Hand-Pulled Cart Vendor
+Camel Caravan Operator
+Bicycle Renting Service
+🐠 Fishing & Aquatic Farming (Continued)
+Salt Farmer (Salt Pans)
+Crab Farming Expert
+Shrimp Farming Worker
+Pearl Farming Technician
+Inland Fisheries Worker
+🌿 Forest & Tribal Economy (Continued)
+Medicinal Plant Grower
+Natural Honey Purifier
+Wild Mushroom Collector
+Herbal Extract Maker
+Tribal Handloom Weaver
+Lacquerware Artisan
+Grass Broom Maker
+Gond Art Painter
+Traditional Boat Carver
+Rural Animal Skin Tanner
+🛒 Village Commerce & Small Businesses (Continued)
+Mobile Recharge Seller
+Rural Tailoring Service
+Local Newspaper Distributor
+Plastic Item Seller (Buckets, Mugs, etc.)
+Rural Cycle Repair Shop Owner
+Ice Cream & Kulfi Seller
+Village Meat Seller
+Handloom Cloth Seller
+Herbal Medicine Vendor
+Charcoal Seller
+📚 Education & Rural Knowledge Jobs (Continued)
+Local Language Translator
+Village Sign Board Painter
+Adult Literacy Trainer
+Primary School Tutor
+Rural Computer Trainer
+🚑 Healthcare & Traditional Medicine (Continued)
+Village Bone Setter
+Herbal Hair Oil Maker
+Natural Soap & Shampoo Maker
+Rural Dental Care Worker
+Ayurvedic Massage Therapist
+🎭 Cultural & Entertainment Jobs
+Street Magician
+Puppeteer (Traditional Puppets)
+Village Storyteller
+Bhajan/Kirtan Singer
+Drummer for Rural Festivals
+💡 Renewable Energy & Rural Innovations
+Village Solar Lamp Seller
+Water Purifier Installer
+Rural Rainwater Harvesting Expert
+Biofuel Producer (Cow Dung Gas)
+Windmill Technician
+🛡️ Security & Protection
+Village Chowkidar (Watchman)
+Rural Home Guard
+Local Forest Guard
+Animal Protection Worker
+Gram Sabha Coordinator
+🔍 Unconventional & Unique Rural Jobs
+Bird Scarer (Protecting Crops from Birds)
+Snake Charmer
+Human-Powered Water Pump Operator
+Village Funeral Service Provider
+Customary Matchmaker (Marriage Consultant)
