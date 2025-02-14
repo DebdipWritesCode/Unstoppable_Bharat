@@ -6,6 +6,10 @@ const workerSchema = new mongoose.Schema({
     ref: "User",
     required: true,
   },
+  profile_picture: {
+    type: String,
+    default: "default.jpg",
+  },
   profession: {
     type: String,
     required: true,
@@ -13,6 +17,13 @@ const workerSchema = new mongoose.Schema({
   highestEducation: {
     type: String,
     required: true,
+  },
+  other_skills: {
+    type: String,
+  },
+  streak: {
+    type: Number,
+    default: 0,
   },
   learninngPath: [
     {
@@ -26,6 +37,18 @@ const workerSchema = new mongoose.Schema({
         default: 0,
       }
     },
+  ],
+  settings: [
+    {
+      setting: {
+        type: String,
+        required: true,
+      },
+      value: {
+        type: String,
+        required: true,
+      }
+    }
   ]
 }, { timestamps: true });
 
