@@ -112,9 +112,3 @@ npm run dev
 
 💪 **Join us in building a skilled Bharat!** 🚀  
 ```  
-
-This version adds:  
-✅ **Better structure with clear headings**  
-✅ **Installation instructions**  
-✅ **Tech stack details**  
-✅ **A section for PPT/documentation links**  
