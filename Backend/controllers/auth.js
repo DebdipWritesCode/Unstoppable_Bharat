@@ -2,14 +2,10 @@ const User = require("../models/user");
 const bcrypt = require("bcryptjs");
 
 const register = async (req, res) => {
-  const { first_name, last_name, phone, password, role } = req.body;
+  const { first_name, last_name, phone, password, role, gender } = req.body;
 
-  if (!phone || !password || !role || !first_name || !last_name) {
+  if (!phone || !password || !role || !first_name || !last_name || !gender) {
     return res.status(400).json({ message: "All fields are required" });
-  }
-
-  if (phone.length !== 10) {
-    return res.status(400).json({ message: "Phone number must be 10 digits" });
   }
 
   if (role !== "provider" && role !== "worker") {
@@ -26,6 +22,7 @@ const register = async (req, res) => {
 
   const salt = await bcrypt.genSalt(10);
   const hashedPassword = await bcrypt.hash(password, salt);
+  console.log(hashedPassword);
 
   const user = new User({
     phone,
@@ -33,12 +30,14 @@ const register = async (req, res) => {
     role,
     first_name,
     last_name,
+    gender,
   });
 
   try {
     await user.save();
     res.status(201).json({ message: "User registered successfully", user });
   } catch (err) {
+    console.log(err);
     res.status(500).json({ message: "Something went wrong" });
   }
 };
