@@ -87,6 +87,7 @@ upskill_prompt = PromptTemplate(
     input_variables=["context", "profession", "education", "skills"],
     template=(
         "Give top 3 professions without extra text:\n"
+        "Provide a fresh unique response each time. Avoid repeating the past suggestion."
         "- **Current Profession**: {profession}\n"
         "- **Highest Education**: {education}\n"
         "- **Technical Skills**: {skills}\n\n"
@@ -182,3 +183,5 @@ def youtube_search(request: YouTubeRequest):
 
     videos = get_youtube_videos(request.topic, request.max_results)
     return {"videos": videos}
+
+    # uvicorn main:app --reload
