@@ -1,5 +1,5 @@
 const express = require("express");
-const mongoose = require("mongoose"); // Import mongoose
+const mongoose = require("mongoose");
 const app = express();
 
 require("dotenv").config();
@@ -13,6 +13,21 @@ app.use(
     credentials: true,
   })
 );
+
+const authRoutes = require("./routes/auth");
+const courseRoutes = require("./routes/course");
+const jobRoutes = require("./routes/job");
+const llmRoutes = require("./routes/llm");
+const userRoutes = require("./routes/user");
+
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
+
+app.use("/auth", authRoutes);
+app.use("/course", courseRoutes);
+app.use("/job", jobRoutes);
+app.use("/llm", llmRoutes);
+app.use("/user", userRoutes);
 
 mongoose
   .connect(MONGODB_URI)

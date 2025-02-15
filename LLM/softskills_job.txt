@@ -1,4 +1,103 @@
-
+Construction Worker
+Farm Worker
+Janitor
+Security Guard
+Waste Collector
+Taxi Driver
+Delivery Driver
+Truck Driver
+Factory Worker
+Mover
+Dishwasher
+Demolition Worker
+Gardener
+Groundskeeper
+Street Vendor
+Car Washer
+Painter
+Waiter/Waitress
+Packager
+Construction Helper
+Landscape Worker
+Mining Laborer
+Warehouse Worker
+Laundry Worker
+Housekeeper
+Street Cleaner
+Pest Control Worker
+Heavy Equipment Operator
+Ironworker
+Roofer
+Bricklayer
+Concrete Laborer
+Welder
+Plumber's Helper
+Electrician's Helper
+Carpenter's Helper
+Tile Setter Helper
+Glazier
+Crane Operator
+Fisherman
+Boatman
+Lumberjack
+Recycling Worker
+Sandblaster
+Assembler
+Laborer in Cement Plant
+Road Construction Worker
+Asphalt Worker
+Fence Installer
+Pool Cleaner
+Meat Packer
+Warehouse Loader
+Farm Hand
+Dairy Worker
+Fruit Picker
+Vegetable Picker
+Livestock Handler
+Greenhouse Worker
+Poultry Worker
+Butcher
+Fish Cutter
+Garment Worker
+Shoe Maker
+Seamstress (basic sewing)
+Steelworker
+Boat Builder
+Animal Groomer
+Window Washer
+Cleaner in Hotel
+Carpet Cleaner
+Shipping and Receiving Clerk
+Delivery Helper
+Pool Attendant
+Snow Removal Worker
+Pet Care Worker
+Warehouse Stocker
+Refuse Disposal Worker
+Courier
+Furniture Assembler
+Garage Worker
+Road Worker
+Laborer in Power Plant
+Farm Mechanic
+Cement Mixer Operator
+Water Well Digger
+Log Hauler
+Mobile Car Mechanic
+Demolition Assistant
+Street Repair Worker
+Field Laborer
+Quarry Worker
+Utility Worker
+Food Delivery Driver
+House Painter
+Scaffold Erector
+Drain Cleaner
+Land Surveyor's Assistant
+Tree Trimmer
+Livestock Driver
+Concrete Cutter
 Agriculture & Farming
 Farmer
 Agricultural Laborer
@@ -179,8 +278,7 @@ Decorative Earthenware Maker
 Natural Dye Expert (Textile Dyeing)
 Palm Leaf Craft Artist
 Bamboo Musical Instrument Maker
-Traditional Carpet Dyer
-🍛 Food Processing & Village Industries (Continued)
+Traditional Carpet Dyer 
 Dry Fruit Processor
 Masala Powder Maker
 Khoya (Mawa) Maker
@@ -191,7 +289,6 @@ Pickle & Chutney Maker
 Bakery Worker (Rural Bread & Buns)
 Coconut Oil Processor
 Ice Gola Vendor
-🏗️ Rural Construction & Building Trades (Continued)
 Thatch Roof Maker (Straw & Grass Roofs)
 Mud House Builder
 Well Water Puller (Persian Wheel Operator)
@@ -202,7 +299,6 @@ Bamboo Scaffold Builder
 Thatched Fence Installer
 Village Tank (Pond) Digger
 River Embankment Worker
-🚜 Rural Transportation & Logistics (Continued)
 Bullock Cart Repairer
 Rural Courier Delivery Boy
 Village Petrol Pump Attendant
@@ -213,13 +309,11 @@ Rural Gas Delivery Worker
 Hand-Pulled Cart Vendor
 Camel Caravan Operator
 Bicycle Renting Service
-🐠 Fishing & Aquatic Farming (Continued)
 Salt Farmer (Salt Pans)
 Crab Farming Expert
 Shrimp Farming Worker
 Pearl Farming Technician
-Inland Fisheries Worker
-🌿 Forest & Tribal Economy (Continued)
+Inland Fisheries Worker 
 Medicinal Plant Grower
 Natural Honey Purifier
 Wild Mushroom Collector
@@ -240,38 +334,32 @@ Ice Cream & Kulfi Seller
 Village Meat Seller
 Handloom Cloth Seller
 Herbal Medicine Vendor
-Charcoal Seller
-📚 Education & Rural Knowledge Jobs (Continued)
+Charcoal Seller 
 Local Language Translator
 Village Sign Board Painter
 Adult Literacy Trainer
 Primary School Tutor
 Rural Computer Trainer
-🚑 Healthcare & Traditional Medicine (Continued)
 Village Bone Setter
 Herbal Hair Oil Maker
 Natural Soap & Shampoo Maker
 Rural Dental Care Worker
 Ayurvedic Massage Therapist
-🎭 Cultural & Entertainment Jobs
 Street Magician
 Puppeteer (Traditional Puppets)
 Village Storyteller
 Bhajan/Kirtan Singer
 Drummer for Rural Festivals
-💡 Renewable Energy & Rural Innovations
 Village Solar Lamp Seller
 Water Purifier Installer
 Rural Rainwater Harvesting Expert
 Biofuel Producer (Cow Dung Gas)
 Windmill Technician
-🛡️ Security & Protection
 Village Chowkidar (Watchman)
 Rural Home Guard
 Local Forest Guard
 Animal Protection Worker
 Gram Sabha Coordinator
-🔍 Unconventional & Unique Rural Jobs
 Bird Scarer (Protecting Crops from Birds)
 Snake Charmer
 Human-Powered Water Pump Operator

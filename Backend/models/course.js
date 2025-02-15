@@ -11,7 +11,10 @@ const courseSchema = new mongoose.Schema(
       required: true,
     },
     duration: { type: Number, required: true },
-    modules: [{ title: String, content: String }],
+    modules: [{
+      type: mongoose.Schema.Types.ObjectId,
+      ref: "Module",
+    }],
   },
   { timestamps: true }
 );
