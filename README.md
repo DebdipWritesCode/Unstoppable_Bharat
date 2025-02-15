@@ -1,65 +1,114 @@
-Unstoppable Bharat
+# 🚀 Unstoppable Bharat  
 
-Overview
+## Overview  
 
-Unstoppable Bharat is an AI-powered upskilling platform designed to empower workers, laborers, and gig economy workers by providing personalized job and course recommendations. By leveraging LLMs and similarity search, our platform helps users enhance their skills and find better job opportunities.
+**Unstoppable Bharat** is an **AI-powered upskilling platform** designed to empower workers, laborers, and gig economy professionals by providing **personalized job and course recommendations**. Leveraging **LLMs, similarity search, and RAG-based AI analysis**, the platform helps users enhance their skills and secure better job opportunities.  
 
-Features
+---
 
-1. Personalized Job & Skill Recommendations
+## 🌟 Key Features  
 
-Users input details such as:
+### 🔹 1. Personalized Job & Skill Recommendations  
+Users provide details such as:  
 
-Current job they have
+- **Current job**  
+- **Highest education level**  
+- **Other skills**  
+- **Soft skills**  
 
-Highest education level
+Our **LLM model** then generates:  
+✅ **Top 3 job recommendations** based on user profile  
+✅ **Essential soft skills to learn**  
 
-Other skills
+### 🤖 2. AI-Powered Chatbot  
+A smart, **AI-driven chatbot** to assist users with:  
+- **Upskilling guidance**  
+- **Job search support**  
+- **Platform navigation help**  
 
-Soft skills
+### 🎓 3. Course Lecture Suggestions  
+Since users may have limited time, the platform provides:  
+📌 **Top 5 curated YouTube lectures** for essential skill-building, selected via **LLM analysis**.  
 
-Our LLM generates the top 3 job recommendations and top soft skills to learn, using similarity search.
+### 🏆 4. Leaderboard & Rewards  
+Users earn points by completing tasks such as **learning new skills, applying for jobs, and engaging with the platform**.  
 
-2. AI-Powered Chatbot
+**Rewards System:**  
+🔹 **Short-term**: Non-monetary rewards & goodies  
+🔹 **Long-term**: Higher priority in job allocation  
 
-A general-purpose chatbot assists users with queries related to upskilling, job searches, and platform navigation.
+### 🔐 5. Inclusive & Secure Platform  
+- **Aadhaar-based verification** for users & employers  
+- **Women & transgender users prioritized** for home-based remote jobs  
+- **Skill tags unlocked** upon course completion, increasing credibility  
 
-3. Course Lecture Suggestions
+### 🌍 6. User-Friendly Experience  
+- **Full Hindi language support**  
+- **Available in multiple regional languages**  
+- **Step-by-step tutorials** for login, signup, and navigation  
 
-Due to time constraints, we provide the top 5 YouTube video lectures curated by our LLM to help users learn essential skills.
+### 👥 7. Dedicated Login Routes  
+- **Users:** Access upskilling content & job opportunities  
+- **Employers:** Post jobs & hire verified skilled workers  
 
-4. Leaderboard & Rewards
+---
 
-Users earn points based on completed tasks.
+## 🏗️ Tech Stack  
 
-Short-term goal: Non-monetary rewards & goodies.
+**Frontend:**  
+🖥️ **MERN Stack** (MongoDB, Express.js, React, Node.js)  
+🛠️ **TypeScript** for scalability & maintainability  
 
-Long-term goal: Higher priority in job allocation.
+**Backend & AI Integration:**  
+🤖 **Machine Learning (ML):**  
+- **Retrieval-Augmented Generation (RAG)** for accurate job/skill matching  
+- **FAstAPI** for seamless ML-backend communication  
 
-5. Inclusive & Secure Platform
+---
 
-Aadhaar-based verification for both users and employers.
+## 🛠️ Installation Guide  
 
-Women and transgender users are prioritized for home-based remote jobs.
+### 1️⃣ Clone the Repository  
+```bash
+git clone https://github.com/your-repo/unstoppable-bharat.git
+cd unstoppable-bharat
+```
 
-Workers unlock skill tags upon course completion, increasing their credibility.
+### 2️⃣ Install Dependencies  
+#### Backend  
+```bash
+cd backend
+pip install -r requirements.txt
+```
 
-6. User-Friendly Experience
+#### Frontend  
+```bash
+cd frontend
+npm install
+```
 
-Full Hindi language support for accessibility.
+### 3️⃣ Start the Development Servers  
+#### Backend  
+```bash
+uvicorn main:app --reload
+```
 
-Platform available in regional languages for inclusivity.
+#### Frontend  
+```bash
+npm run dev
+```
 
-Step-by-step tutorials for login, signup, and navigation.
+---
 
-7. Dedicated Login Routes
+## 📂 Presentation & Documentation  
 
-Users: Access upskilling content and job opportunities.
+📌 [Click here to access the PPT](https://www.canva.com/design/DAGOG2eWIW0/5mZMFEVHDtAiFBiJ2gSleQ/edit?utm_content=DAGOG2eWIW0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)  
 
-Employers: Post jobs and hire verified skilled workers.
+---
 
-Vision
+## 🌍 Vision  
 
-Unstoppable Bharat is more than just an upskilling platform; it’s a job marketplace where learning directly translates into employment. Our mission is to make skills the currency of the future, ensuring that every worker gets a fair chance to grow and succeed.
+**Unstoppable Bharat** is more than just an upskilling platform—it's a **job marketplace where learning directly translates into employment**. Our mission is to make **skills the currency of the future**, ensuring every worker gets a **fair chance to grow and succeed**.  
 
-🚀 Join Us in Building a Skilled Bharat!
+💪 **Join us in building a skilled Bharat!** 🚀  
+```  
