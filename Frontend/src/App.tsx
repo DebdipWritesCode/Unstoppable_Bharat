@@ -7,6 +7,9 @@ import PfpPage from './pages/Pfp';
 import ChoicePage from './pages/Choice';
 import NewPage1 from './pages/NewPage1';
 import ChatbotPage from './pages/Chatbot';
+import LeaderboardPage from './pages/Leaderboard';
+import UserprofilePage from './pages/Userprofile';
+import EmployerPage from './pages/Employer';
 import NotFound from './pages/Not-Found';
 
 const AppRouter: React.FC = () => {
@@ -19,6 +22,9 @@ const AppRouter: React.FC = () => {
         <Route path="/Choice" element={<ChoicePage />} />
         <Route path="/NewPage1" element={<NewPage1 />} />
         <Route path="/Chatbot" element={<ChatbotPage />} />
+        <Route path="/Leaderboard" element={<LeaderboardPage />} />
+        <Route path="/Userprofile" element={<UserprofilePage />} />
+        <Route path="/Employer" element={<EmployerPage />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </Router>
