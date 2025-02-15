@@ -1,4 +1,4 @@
-import { useLocation } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import { useState } from "react";
 import axios from "axios";
 
@@ -120,6 +120,9 @@ const RecommendedCourses = () => {
             </button>
           )}
         </div>
+        <button className=" py-2 px-4 font-semibold cursor-pointer bg-blue-600 text-white rounded-xl mt-4 hover:bg-blue-800">
+          <Link to="/">Back to Home</Link>
+        </button>
       </div>
     </div>
   );

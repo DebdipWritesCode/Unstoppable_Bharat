@@ -1,5 +1,6 @@
 import { useState } from "react"
 import { Link } from "react-router-dom";
+import defaultImg from "../assets/default.jpg";
 
 const NewPage1 = () => {
   const [selectedTab, setSelectedTab] = useState("learn");
@@ -92,7 +93,7 @@ const NewPage1 = () => {
               <div key={job.id} className="p-4 border rounded-lg flex items-center space-x-4 justify-between">
                 <div className="flex items-center space-x-4">
                   <img
-                    src="https://via.placeholder.com/50"
+                    src={defaultImg}
                     alt="Employer"
                     className="w-12 h-12 rounded-full"
                   />
