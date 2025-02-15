@@ -8,7 +8,7 @@ const moduleSchema = new mongoose.Schema(
     resources: [
       {
         title: { type: String, required: true },
-        link: { type: String, required: true },
+        url: { type: String, required: true },
       },
     ],
     quiz: [

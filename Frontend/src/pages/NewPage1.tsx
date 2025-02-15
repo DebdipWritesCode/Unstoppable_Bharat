@@ -1,4 +1,5 @@
 import { useState } from "react"
+import { Link } from "react-router-dom";
 
 const NewPage1 = () => {
   const [selectedTab, setSelectedTab] = useState("learn");
@@ -47,9 +48,8 @@ const NewPage1 = () => {
           {!showCourses ? (
             <button
               className="px-6 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700"
-              onClick={() => setShowCourses(true)}
             >
-              Start a Course
+              <Link to={"/pfp"}>Start a Course</Link>
             </button>
           ) : selectedCourse ? (
             <div className="w-full max-w-4xl bg-white p-6 rounded-lg shadow-lg">

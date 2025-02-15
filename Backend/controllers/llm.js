@@ -1,6 +1,7 @@
 const path = require("path");
 const multer = require("multer");
 const Worker = require("../models/worker");
+const Module = require("../models/module");
 const URL = "http://localhost:8000";
 const axios = require("axios");
 const { default: mongoose } = require("mongoose");
@@ -26,12 +27,15 @@ const save_worker = async (req, res) => {
         .json({ message: "All required fields must be provided" });
     }
 
+    // Check if the profile picture is uploaded
+    const profilePicturePath = req.file ? req.file.path : null; // Now access the file from req.file
+
     const newWorker = new Worker({
       userID: user_id,
       profession,
       highestEducation: highest_education,
       other_skills: other_skills || "",
-      profile_picture: req.file.path,
+      profile_picture: profilePicturePath,
     });
 
     await newWorker.save();
@@ -84,18 +88,13 @@ const recommendations = async (req, res) => {
 };
 
 const chat = async (req, res) => {
-  const { userID, workerID, user_input } = req.body;
+  const { userID, user_input } = req.body;
 
-  if (!userID || !workerID || !user_input) {
+  if (!userID || !user_input) {
     return res.status(400).json({ message: "All fields are required" });
   }
 
   try {
-    const worker = await Worker.findOne({ _id: workerID }).populate("userID");
-
-    if (!worker) {
-      return res.status(404).json({ message: "Worker not found" });
-    }
 
     const data = {
       user_input: user_input,
@@ -107,6 +106,8 @@ const chat = async (req, res) => {
       },
     });
 
+    console.log(response.data);
+
     res.status(200).json(response.data);
   } catch (e) {
     console.error(e);
@@ -115,30 +116,33 @@ const chat = async (req, res) => {
 };
 
 const createModule = async (req, res) => {
-  const { title, description, courseID } = req.body;
+  const { title } = req.body;
   const duration = "NA"
 
-  if (!title || !description || !courseID) {
+  if (!title) {
     return res.status(400).json({ message: "All fields are required" });
   }
 
-  const module = new Module({
-    title,
-    description,
-    duration,
-    courseID,
-  });
-
   try {
-    await module.save();
-    res.status(201).json({ message: "Module created successfully", module });
+    const response = await axios.post(`${URL}/youtube`, {
+      topic: title,
+      max_results: 5
+    }, {
+      headers: {
+        "Content-Type": "application/json",
+      },
+    })
+
+    res.status(201).json({ message: "Module created successfully", response: response.data });
   } catch (err) {
+    console.log(err);
     res.status(500).json({ message: "Something went wrong" });
   }
 }
 
 module.exports = {
   upload,
+  createModule,
   save_worker,
   recommendations,
   chat,
