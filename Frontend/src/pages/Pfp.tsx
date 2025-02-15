@@ -107,7 +107,7 @@ const Pfp = () => {
         ? data.upskilling_suggestions.split("\n")
         : [],
       top_soft_skills: data.top_soft_skills
-        ? data.top_soft_skills.flatMap((skills: string) => skills.split("\n"))
+        ? data.top_soft_skills.flatMap((skills: string) => skills.split("\n")[1])
         : [],
     };
   };

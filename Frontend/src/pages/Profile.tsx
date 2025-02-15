@@ -14,6 +14,8 @@ const user = {
   ]
 };
 
+import defaultImg from "../assets/default.jpg";
+
 import { useState } from "react";
 
 const Userprofile = () => {
@@ -28,7 +30,7 @@ const Userprofile = () => {
       <h1 className="text-4xl font-bold mb-6">User Profile</h1>
       <div className="w-full max-w-md bg-white p-6 rounded-lg shadow-lg text-center">
         <img
-          src=""
+          src={defaultImg}
           alt="Profile"
           className="w-32 h-32 rounded-full mx-auto mb-4"
         />
