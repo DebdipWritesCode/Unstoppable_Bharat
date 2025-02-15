@@ -86,20 +86,26 @@ chat_prompt = PromptTemplate(
 upskill_prompt = PromptTemplate(
     input_variables=["context", "profession", "education", "skills"],
     template=(
-        "Give top 3 professions without extra text:\n"
-        "Provide a fresh unique response each time. Avoid repeating the past suggestion."
+        "Previous conversation history:\n{history}\n\n"
+        "Do not give any line, directly start giving jobs."
+        "Do not give upskilling jobs you have given earlier.\n\n"
         "- **Current Profession**: {profession}\n"
         "- **Highest Education**: {education}\n"
         "- **Technical Skills**: {skills}\n\n"
-        "Context:\n{context}\n\n"
-        "Recommend the top 3 upskilling professions.\n\n"
+        "Relevant Context:\n{context}\n\n"
+        "Recommend the top upskilling professions only 3.\n\n"
         "Provide a **short and precise** answer specific to India."
     )
+)
+memory2 = ConversationBufferMemory(
+    memory_key="history",
+    input_key="context",  # Set input key to "context" instead of multiple keys
+    return_messages=False
 )
 
 # ✅ Create LLM Chains
 chatbot_chain = LLMChain(llm=model, memory=memory, prompt=chat_prompt)
-upskill_chain = LLMChain(llm=model, prompt=upskill_prompt)
+upskill_chain = LLMChain(llm=model,memory=memory2, prompt=upskill_prompt)
 
 # ✅ Query Filter Function (Restricts Irrelevant Queries)
 def is_relevant_query(user_input):
@@ -144,6 +150,7 @@ def get_query(request: QueryRequest):
     relevant_docs = retriever1.get_relevant_documents(user_query)
     context = "\n\n".join([doc.page_content for doc in relevant_docs])
     
+    # Generate upskilling response
     upskill_response = upskill_chain.run({
         "context": context,
         "profession": request.profession,
@@ -155,11 +162,16 @@ def get_query(request: QueryRequest):
     soft_skill_docs = retriever2.get_relevant_documents(user_query)
     top_soft_skills = [doc.page_content for doc in soft_skill_docs][:3]
     
+    # ✅ Save conversation context
+    memory.save_context(
+        {"context": user_query},  # User Input
+        {"response": upskill_response}  # Model Output
+    )
+    
     return {
         "upskilling_suggestions": upskill_response,
         "top_soft_skills": top_soft_skills
     }
-
 # ✅ YouTube Video Retrieval API
 @app.post("/youtube")
 def youtube_search(request: YouTubeRequest):
