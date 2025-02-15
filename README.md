@@ -10,7 +10,7 @@ Features
 
 Users input details such as:
 
-Current job
+Current job they have
 
 Highest education level
 
